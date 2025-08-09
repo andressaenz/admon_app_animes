@@ -3,6 +3,7 @@ module com.app.admin.animes.admon_app_animes {
     requires javafx.fxml;
     requires java.dotenv;
     requires java.sql;
+    requires jbcrypt;
 
 
     opens com.app.admin.animes.admon_app_animes to javafx.fxml;

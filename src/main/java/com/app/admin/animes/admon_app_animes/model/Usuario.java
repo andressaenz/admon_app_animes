@@ -3,12 +3,10 @@ package com.app.admin.animes.admon_app_animes.model;
 public class Usuario {
     private String usuario;
     private String contrasena;
-    private String rol;
 
-    public Usuario(String usuario, String contrasena, String rol){
+    public Usuario(String usuario, String contrasena){
         this.usuario = usuario;
         this.contrasena = contrasena;
-        this.rol = rol;
     }
 
     public String getUsuario() {
@@ -25,13 +23,5 @@ public class Usuario {
 
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
-    }
-
-    public String getRol() {
-        return rol;
-    }
-
-    public void setRol(String rol) {
-        this.rol = rol;
     }
 }
