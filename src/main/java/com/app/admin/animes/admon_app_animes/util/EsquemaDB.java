@@ -1,8 +1,6 @@
 package com.app.admin.animes.admon_app_animes.util;
 
-import java.io.File;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.Statement;
